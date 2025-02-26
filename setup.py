@@ -21,6 +21,7 @@ setup(
     license='TODO: License declaration',
     entry_points={
         'console_scripts': [
+            'control_bot.py = switchbot_ros2.control_bot:main'
         ],
     },
 )
